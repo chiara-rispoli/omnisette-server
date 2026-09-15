@@ -41,5 +41,8 @@ plist = "1.4"
 async-trait = "0.1"
 awc = "3"
 futures-util = { version = "0.3", features = [
-    "sink", # sink feature might not be required
+    "sink",
 ] }
+
+[patch.crates-io]
+time = "0.3.44"
